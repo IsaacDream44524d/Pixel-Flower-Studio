@@ -6,6 +6,7 @@
 
 body {
     background-color: #1D1A39;
+    font-family: sans-serif, Arial, Helvetica;
 }
 
 .web-image {
@@ -13,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100dvh;
     width: 55%;
     border-radius: 15px;
     
@@ -25,13 +26,13 @@ body {
 
     @media (max-width: 600px) {
         width: 100%;
-        height: 100vh;
+        height: 100dvh;
     }
 }
 
 .top-content .logo img {
     width: 150px;
-    height: aut;
+    height: 100%;
 }
 
 .bottom-content h3 {
@@ -112,7 +113,6 @@ form h5 {
 
 .container {
     display: flex;
-
     @media (max-width: 600px) {
         flex-direction: column
     }
