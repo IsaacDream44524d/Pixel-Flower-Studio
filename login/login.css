@@ -152,7 +152,7 @@ form h5 {
     padding: 0 5px;
 }
 .input-group input:focus+label, .input-group
-input:invalid+label {
+input:valid+label {
     top: -1px;
     font-size: 14px;
     background-color:#1D1A39;
