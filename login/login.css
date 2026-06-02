@@ -171,3 +171,26 @@ input:not(:placeholder-shown) + label {
     display: flex;
     gap: 20px;
 }
+
+.scroll-indicator{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    animation: bounce 1.5s infinite;
+
+    @media (max-width: 600px) {
+        display: flex;
+    }
+
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+        
+}
